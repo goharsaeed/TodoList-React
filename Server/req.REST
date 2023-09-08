@@ -1,0 +1,48 @@
+POST http://localhost:5000/todo/api/item
+Content-Type: application/json
+
+{
+    "item": "This is the first input",
+    "user": "64fb6c970779fc2518975095"
+}
+
+###
+
+GET http://localhost:5000/api/item
+Content-Type: application/json
+
+###
+
+PUT http://localhost:5000/api/item/64fb4fbaacea030b6196e631
+Content-Type: application/json
+
+{
+    "item": "This is the second input"
+}
+
+###
+
+
+DELETE http://localhost:5000/api/item/64fb4fbaacea030b6196e631
+Content-Type: application/json
+
+###
+
+POST http://localhost:5000/signup
+Content-Type: application/json
+
+{
+    "email": "g@gmail.com",
+    "password": "12345678"
+}
+
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "g@gmail.com",
+    "password": "12345678"
+}
+

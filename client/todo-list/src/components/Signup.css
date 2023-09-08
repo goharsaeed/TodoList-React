@@ -1,0 +1,50 @@
+.auth-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 30px;
+  }
+  
+  .auth-container h2 {
+    text-align: center;
+    color: #008080; 
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .login {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+
+  .form-group button:hover {
+    background-color: #006666;
+  }
+  
+  .style {
+    margin-left: 30px;
+  }
